@@ -155,6 +155,7 @@ dist
 # if you are NOT using Zero-installs, then:
 # comment the following lines
 !.yarn/cache
+package-lock.json
 
 # and uncomment the following lines
 # .pnp.*
