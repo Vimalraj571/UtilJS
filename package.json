@@ -1,0 +1,36 @@
+{
+  "name": "utiljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "test-coverage": "jest --coverage",
+    "lint": "eslint --fix util.js",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vimalraj571/UtilJS.git"
+  },
+  "keywords": [],
+  "author": "Vimal Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vimalraj571/UtilJS/issues"
+  },
+  "homepage": "https://github.com/Vimalraj571/UtilJS#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jest": "^27.5.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
